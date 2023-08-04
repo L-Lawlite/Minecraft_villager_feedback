@@ -1,0 +1,181 @@
+{
+    "trades": [
+        {
+            "Level": 1,
+            "rolls": 2,
+            "pools": [
+                {
+                    "max_uses":16,
+                    "xp": 2,
+                    "price_multiplier": 0.05,
+                    "reward_exp":true,
+                    "buy": {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:paper",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 24
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sell":  {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:emerald",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "max_uses":12,
+                    "xp": 1,
+                    "price_multiplier": 0.05,
+                    "reward_exp":true,
+                    "buy": {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:emerald",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 7
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sell":  {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:map",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+                   
+        },
+        {
+            "Level": 2,
+            "rolls": 2,
+            "pools": [
+                {
+                    "max_uses":16,
+                    "xp": 10,
+                    "price_multiplier": 0.05,
+                    "reward_exp":true,
+                    "buy": {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:glass_pane",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 11
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sell":  {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:map",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "max_uses":12,
+                    "xp": 5,
+                    "price_multiplier": 0.2,
+                    "reward_exp":true,
+                    "buy": {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:emerald",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 13
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "buy2": {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:compass",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sell":  {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                            "type": "minecraft:item",
+                            "name": "minecraft:filled_map",
+                            "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": 1
+                                    },
+                                    {
+                                        "function": "minecraft:set_nbt",
+                                        "tag": "{<whatever nbt we want>}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+                   
+        }
+    ]
+}
